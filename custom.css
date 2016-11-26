@@ -115,7 +115,66 @@
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 736px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+    #nav_arrow {width: 90px;height:90px;}
+    #main {padding-left: 90px; padding-right:80px;}
+
+    #main h1{
+      font-family: 'Raleway', sans-serif;
+      font-size: 64px;
+    }
+
+
+    #main h3{
+      font-family: 'Raleway', sans-serif;
+      font-size: 40px;
+      color: #AD0000;
+    }
+
+
+
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 64px;
+        font-family: 'Raleway', sans-serif;
+        color: #818181;
+        display: block;
+        transition: 0.8s;
+
+    }
+
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover, .offcanvas a:focus{
+        color: #ffa500;
+    }
+
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 42px;
+        margin-left: 50px;
+    }
+
+
+    /* When you mouse over the navigation links, change their color */
+    .subnav a:hover, .offcanvas a:focus{
+        color: #ffa500;
+    }
+
+    /* Position and style the close button (top right corner) */
+    .subnav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 42px;
+        margin-left: 50px;
+    }
+
 }
