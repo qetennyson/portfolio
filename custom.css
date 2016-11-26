@@ -115,7 +115,7 @@
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 736px) {
+@media screen and (max-height: 100px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
     #nav_arrow {width: 90px;height:90px;}
@@ -126,15 +126,11 @@
       font-size: 64px;
     }
 
-
     #main h3{
       font-family: 'Raleway', sans-serif;
       font-size: 40px;
       color: #AD0000;
     }
-
-
-
 
     /* The navigation menu links */
     .sidenav a {
