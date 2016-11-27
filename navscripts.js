@@ -17,5 +17,14 @@ function openSubNav() {
 
 function closeSubNav() {
    document.getElementById("mySubnav").style.width = "0";
-   
+
+}
+
+function openSubNetNav() {
+  document.getElementById("mySubNetNav").style.width = "250px";
+}
+
+function closeSubNetNav() {
+   document.getElementById("mySubNetNav").style.width = "0";
+
 }
