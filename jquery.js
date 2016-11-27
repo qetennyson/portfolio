@@ -35,7 +35,8 @@ $(document).ready(function(){
     $('.body-text').empty().html('I\'m Quincy Tennyson, a network engineer in the Louisville area who enjoyes a bit of code from time to time. After seven years as an active duty Marine, I returned to Louisville in 2013 seeking my bachelor\'s degree in the University of Louisville\'s Computer Information Systems program. <br> <br> Interested in learning an entirely new set of skills, I opted for the web development emphasis and here we are. <br> <br> I believe in a highly functional design, without excessive frill, unless of course that\'s what you like! Development is a creative outlet for me, so I get to enjoy it without relying on it to sustain my family and lifestyle. <br> <br> I hope you enjoy browsing a history of my experience with this lightweight, simply designed website using a bit of HTML/CSS/JS and jQuery. <br> <br> While I have nearly a decade of experience in systems and network administration, my greatest talent lies in bonding together the strengths of any team into a targeted effort. A good team can accomplish the mission, but for a great team nothing is impossible.');
   });
 
-/* jQuery that validates the contact form submission, and sends to outside e-mail through the formspree.io platform.  This allows for free web hosting through GHPages.  Good for me. */
+/* jQuery that validates the contact form submission, and sends to outside e-mail through the formspree.io platform.
+This allows for free web hosting through GHPages.  Good for me.
   $('form#contact_form').validate({
   messages: { },
   submitHandler: function(form) {
@@ -52,6 +53,8 @@ $(document).ready(function(){
     return false;
   }
 });
+
+*/
 
 
 
