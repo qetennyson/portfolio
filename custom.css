@@ -109,10 +109,107 @@
   color: #AD0000;
 }
 
+.middle-text h3{
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  color: #AD0000;
+}
+
+.middle-text p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
 #main p{
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
 }
+
+#contact {
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#contact input {
+  margin-bottom: 12px;
+  padding: 6px;
+}
+
+#contact input[type="text"]{
+  width: 325px;
+  height: 34px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+
+
+}
+
+#contact input[type="email"]{
+  width: 325px;
+  height: 34px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+#contact input[type="phone"]{
+  width: 325px;
+  height: 34px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+#contact input:focus[type="text"]{
+  width: 325px;
+  height: 34px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: blue;
+  outline: none;
+
+}
+
+#contact input:focus[type="email"]{
+  width: 325px;
+  height: 34px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: blue;
+  outline:none;
+}
+
+#contact input:focus[type="phone"]{
+  width: 325px;
+  height: 34px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: blue;
+  outline:none
+}
+
+.textarea {
+  width: 325px;
+  height: 180px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 100px) {

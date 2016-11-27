@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quincy Tennyson</title>
+
+<link rel="stylesheet" type="text/css" href="custom.css">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+</style>
+</head>
+
+<body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="index.html">home</a>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#" onclick="openSubNav()" class="devlinkcontact">dev</a>
+    <a href="https://github.com/qetennyson/portfolio/blob/master/Kentucky%20HBPA%20Strategic%20Assessment.pdf">analysis</a>
+    <a href="#">network</a>
+    <a href="contact.html">contact</a>
+  </div>
+
+  <div id="mySubnav" class="subnav">
+    <a href="javascript:void(0)" class="closebtn" id="closeSubBtn" onclick="closeSubNav()">&times;</a>
+    <a href="http://qetennyson.github.io/angchallenge/">AngularJS</a>
+    <a href="#">C#</a>
+    <a href="https://github.com/qetennyson/SQL-Portfolio-Examples">SQL</a>
+  </div>
+
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()"><img id="nav_arrow" src="chevron-down-thick-512.png"</img></span>
+
+<!-- main page -->
+<div id="main" class="middle-text">
+
+  <h1>contact me</h1>
+  <div id="contact">
+    <form>
+      Name<br>
+      <input type="text" name="firstname" required><br>
+      Email<br>
+      <input type="email" name="email" required><br>
+      Phone<br>
+      <input type="phone" name="phone"><br>
+      Message<br><br>
+      <textarea class="textarea" placeholder="Your message here..." rows="10" cols="30" name="messagetext" wrap="hard">
+      </textarea>
+    </form>
+
+  </div>
+
+
+</div>
+
+<script src="navscripts.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="jquery.js"></script>
+
+</body>
+</html>
