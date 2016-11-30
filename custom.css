@@ -161,6 +161,11 @@
   color: black;
 }
 
+.contact-list a{
+  text-decoration: none;
+  color: red;
+}
+
 #main p{
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
@@ -168,7 +173,7 @@
 
 
 #linkedin {
-  margin-top: -87px;
+  margin-top: -89px;
   margin-left: 275px;
   height: 60px;
   width: 60px;
@@ -278,7 +283,14 @@
 
 #submit-button {
  width: 100px;
+ margin-left: 20px;
  font-size: 40px;
+
+}
+
+h4 {
+  font-size: 18px;
+  margin-top: -20px;
 }
 
 
