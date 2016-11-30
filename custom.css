@@ -118,6 +118,15 @@
     margin-left: 50px;
 }
 
+.backbtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 10px;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
 #nav_arrow {
   height: 45px;
   width: 45px;
