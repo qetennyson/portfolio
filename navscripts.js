@@ -20,11 +20,11 @@ function closeSubNav() {
 
 }
 
-function openSubNetNav() {
+/*function openSubNetNav() {
   document.getElementById("mySubNetNav").style.width = "250px";
 }
 
 function closeSubNetNav() {
    document.getElementById("mySubNetNav").style.width = "0";
 
-}
+}*/
